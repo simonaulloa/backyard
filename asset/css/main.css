@@ -2,12 +2,14 @@
 	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 0;
-
+	
 }
 body{
-	background: #E9E9E9;
+	background-image: url(../../asset/img/fondo.png);
+	background-size: cover;
+
 }
-.contenedor{
+.contenedor, footer{
 	width: 100%;
 	padding: 10px;
 
@@ -16,18 +18,57 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	text-transform: uppercase;
 }
+a{
+	cursor: pointer;
+	padding: 20px;
+}
+a:hover { /*nav encima*/
+  background-color: #7f78a3;
+  color: whitesmoke;
+  padding: 20px;
+
+  }
 .elementoa{
-	width: 100px;
+	width: 25%;
 	color: #fff;
-	margin: 5px; /*espacio entre cajas*/
-	height: 100px;
-	background: #E67E22; /*color cajita texto*/
+	margin: 2%; /*espacio entre cajas*/
+	height: 50%;
+}
+.elementob{
+	width: 25%;
+	color: #fff;
+	margin: 2%; /*espacio entre cajas*/
+	height: 50%;
 	text-align: center;
+	background: #3e3d42; /*color cajita texto*/
+	border-radius: 5px;
+	padding: 10px;
+}
+.inp{
+	width: 90%;
+	margin:10px;
+	color: #d6d6d6;
+}
+.rosadito{
+	padding: 10px;
+	width: 90%;
+	color: white;
+	background-color: #e0798f;
+}
+.rosadito:hover{
+	padding: 10px;
+	width: 90%;
+	background-color: #a34257;
+}
+.elemento1{
+	font-size: 30px;
+	font-weight: 900;
 }
 .contenedor2{
 	width: 100%;
-	background: blue;
+	background: #75787c;
 	padding: 10px;
 
 
@@ -35,4 +76,17 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+	.contenedor2{
+		width: 100%;
+		background-color: #859bbf;
+	}
+}
+@media (min-width: 535px) and (max-width: 824px){
+	.contenedor2{
+		width: 100%;
+		background-color: #4b3984;
+	}
 }
