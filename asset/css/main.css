@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+
+}
+body{
+	background: #E9E9E9;
+}
+.contenedor{
+	width: 100%;
+	padding: 10px;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.elementoa{
+	width: 100px;
+	color: #fff;
+	margin: 5px; /*espacio entre cajas*/
+	height: 100px;
+	background: #E67E22; /*color cajita texto*/
+	text-align: center;
+}
+.contenedor2{
+	width: 100%;
+	background: blue;
+	padding: 10px;
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
